@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 05.03.25
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: TARUNIKA D
+###  ROLL NO : 212223040227
+###  DEPARTMENT: B.E.CSE
 
 
 
@@ -87,13 +87,33 @@ The main features of LPC2148 include the following.
 
 ## STM 32 CUBE PROGRAM :
 
+```
+int main(void)
+{
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  while (1)
+  {
+
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(1000);
+  }
+```
+
 
 
 
 
 ## OUTPUT  :
- 
- 
+ ##ONSTATE:
+ ![IOT EXP-1](https://github.com/user-attachments/assets/c979fa41-60d0-4928-b5c6-3834bbc05a17)
+
+ ##OFFSTATE:
+![IOT EXP 1 OFF](https://github.com/user-attachments/assets/a4a5964d-12be-46b0-8c7f-e4c985b0f9f7)
+
  
  
 ## Result :
