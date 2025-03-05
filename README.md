@@ -112,7 +112,8 @@ int main(void)
  ![IOT EXP-1](https://github.com/user-attachments/assets/c979fa41-60d0-4928-b5c6-3834bbc05a17)
 
  ##OFFSTATE:
-![IOT EXP 1 OFF](https://github.com/user-attachments/assets/a4a5964d-12be-46b0-8c7f-e4c985b0f9f7)
+ ![IOT EXP 1 OFF](https://github.com/user-attachments/assets/5180c505-e88f-4ec0-a9b1-4723864047b9)
+
 
  
  
